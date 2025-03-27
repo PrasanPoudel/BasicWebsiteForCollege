@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Butwal Multiple Campus</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./BUMCLogo.png" type="image/png" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="logo">
+        <img src="./BUMCLogo.png" alt="BMC Logo" />
+        <p>BMC</p>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+      <div class="hero-content">
+        <h1>Butwal Multiple Campus</h1>
+        <p>Tribhuvan University Constituent Campus</p>
+        <a href="#courses" class="cta-button">Explore Courses</a>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About Butwal Multiple Campus</h2>
+          <p>
+            Established in 1972, Butwal Multiple Campus is a prestigious
+            educational institution located in Butwal, Rupandehi, Nepal. As a
+            constituent campus of Tribhuvan University, we are committed to
+            providing quality higher education across various disciplines. Our
+            campus has been a beacon of academic excellence, offering
+            undergraduate and graduate programs that prepare students for
+            successful careers and meaningful contributions to society.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="./bg.jpg" alt="Butwal Multiple Campus" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+      <h2>Our Courses</h2>
+      <div class="course-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="undergraduate">
+          Undergraduate
+        </button>
+        <button class="filter-btn" data-filter="graduate">Graduate</button>
+      </div>
+      <div class="courses-grid" id="coursesContainer"></div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <h2>Student Testimonials</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <img src="./unknown.png" alt="Student" />
+          "The faculty here are not just teachers, but mentors who guide you
+          towards your goals. I'm grateful for the opportunities I've received
+          at BMC."
+          <p class="student-name">- A Student</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="contact-container">
+        <div class="contact-form">
+          <h2>Contact Us</h2>
+          <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-map">
+          <h2>Our Location</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.1984669770477!2d83.46558527535795!3d27.711157876180426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399686f71446a4b1%3A0x712e7c86b3c8d75!2sButwal%20Multiple%20Campus!5e0!3m2!1sen!2snp!4v1743093176132!5m2!1sen!2snp"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Butwal Multiple Campus. All Rights Reserved.</p>
+        <div class="social-links">
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

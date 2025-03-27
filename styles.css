@@ -562,7 +562,8 @@ footer {
     width: 50%;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: centet;
+    gap: 10px;
     padding: 40px 0;
     transform: translateX(100%);
     transition: transform 0.5s ease;
